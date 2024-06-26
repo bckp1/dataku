@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "vtro",
+"add": "idjkt.szpremium.my.id",
+"port": "80",
+"id": "3e854041-88ba-4fb0-9cc4-30de98fbdd01",
+"aid": "0",
+"net": "ws",
+"path": "/vmess",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "none"
+}

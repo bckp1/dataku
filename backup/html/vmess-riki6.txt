@@ -1,0 +1,59 @@
+---------------------
+---------------------
+- name: Vmess-riki6
+type: vmess
+server: idjkt.szpremium.my.id
+port: 443
+uuid: 32bd8430-959b-4fc1-8ac8-966072d69762
+alterId: 0
+cipher: auto
+udp: true
+tls: true
+skip-cert-verify: true
+servername: idjkt.szpremium.my.id
+network: ws
+ws-opts:
+path: /vmess
+headers:
+Host: idjkt.szpremium.my.id
+---------------------
+---------------------
+- name: Vmess-riki6
+type: vmess
+server: idjkt.szpremium.my.id
+port: 80
+uuid: 32bd8430-959b-4fc1-8ac8-966072d69762
+alterId: 0
+cipher: auto
+udp: true
+tls: false
+skip-cert-verify: false
+servername: idjkt.szpremium.my.id
+network: ws
+ws-opts:
+path: /vmess
+headers:
+Host: idjkt.szpremium.my.id
+---------------------
+---------------------
+- name: Vmess-riki6
+server: idjkt.szpremium.my.id
+port: 443
+type: vmess
+uuid: 32bd8430-959b-4fc1-8ac8-966072d69762
+alterId: 0
+cipher: auto
+network: grpc
+tls: true
+servername: idjkt.szpremium.my.id
+skip-cert-verify: true
+grpc-opts:
+grpc-service-name: vmess-grpc
+---------------------
+---------------------
+Link TLS : vmess://ewoidiI6ICIyIiwKInBzIjogInJpa2k2IiwKImFkZCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoicG9ydCI6ICI0NDMiLAoiaWQiOiAiMzJiZDg0MzAtOTU5Yi00ZmMxLThhYzgtOTY2MDcyZDY5NzYyIiwKImFpZCI6ICIwIiwKIm5ldCI6ICJ3cyIsCiJwYXRoIjogIi92bWVzcyIsCiJ0eXBlIjogIm5vbmUiLAoiaG9zdCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoidGxzIjogInRscyIKfQo=
+---------------------
+Link none TLS : vmess://ewoidiI6ICIyIiwKInBzIjogInJpa2k2IiwKImFkZCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoicG9ydCI6ICI4MCIsCiJpZCI6ICIzMmJkODQzMC05NTliLTRmYzEtOGFjOC05NjYwNzJkNjk3NjIiLAoiYWlkIjogIjAiLAoibmV0IjogIndzIiwKInBhdGgiOiAiL3ZtZXNzIiwKInR5cGUiOiAibm9uZSIsCiJob3N0IjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJ0bHMiOiAibm9uZSIKfQo=
+---------------------
+Link GRPC : vmess://ewoidiI6ICIyIiwKInBzIjogInJpa2k2IiwKImFkZCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoicG9ydCI6ICI0NDMiLAoiaWQiOiAiMzJiZDg0MzAtOTU5Yi00ZmMxLThhYzgtOTY2MDcyZDY5NzYyIiwKImFpZCI6ICIwIiwKIm5ldCI6ICJncnBjIiwKInBhdGgiOiAidm1lc3MtZ3JwYyIsCiJ0eXBlIjogIm5vbmUiLAoiaG9zdCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoidGxzIjogInRscyIKfQo=
+---------------------

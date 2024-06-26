@@ -1,0 +1,25 @@
+[1;93m───────────────────────────[0m
+[92;1m    Xray/Vmess Account    [0m
+[1;93m───────────────────────────[0m
+Remarks       : riki4
+Domain        : idjkt.szpremium.my.id
+id            : efd82c94-c302-43cc-98b4-176a181af47f
+Port TLS      : 443
+Port none TLS : 80, 8080
+Port GRPC     : 443
+Security      : auto
+network       : WS or gRPC
+path          : /vmess 
+ServiceName   : vmess-grpc
+[1;93m───────────────────────────[0m
+Link TLS  : vmess://ewoidiI6ICIyIiwKInBzIjogInJpa2k0IiwKImFkZCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoicG9ydCI6ICI0NDMiLAoiaWQiOiAiZWZkODJjOTQtYzMwMi00M2NjLTk4YjQtMTc2YTE4MWFmNDdmIiwKImFpZCI6ICIwIiwKIm5ldCI6ICJ3cyIsCiJwYXRoIjogIi92bWVzcyIsCiJ0eXBlIjogIm5vbmUiLAoiaG9zdCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoidGxzIjogInRscyIKfQo=
+[1;93m───────────────────────────[0m
+Link NTLS : vmess://ewoidiI6ICIyIiwKInBzIjogInJpa2k0IiwKImFkZCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoicG9ydCI6ICI4MCIsCiJpZCI6ICJlZmQ4MmM5NC1jMzAyLTQzY2MtOThiNC0xNzZhMTgxYWY0N2YiLAoiYWlkIjogIjAiLAoibmV0IjogIndzIiwKInBhdGgiOiAiL3ZtZXNzIiwKInR5cGUiOiAibm9uZSIsCiJob3N0IjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJ0bHMiOiAibm9uZSIKfQo=
+[1;93m───────────────────────────[0m
+Link GRPC : vmess://ewoidiI6ICIyIiwKInBzIjogInJpa2k0IiwKImFkZCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoicG9ydCI6ICI0NDMiLAoiaWQiOiAiZWZkODJjOTQtYzMwMi00M2NjLTk4YjQtMTc2YTE4MWFmNDdmIiwKImFpZCI6ICIwIiwKIm5ldCI6ICJncnBjIiwKInBhdGgiOiAidm1lc3MtZ3JwYyIsCiJ0eXBlIjogIm5vbmUiLAoiaG9zdCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoidGxzIjogInRscyIKfQo=
+[1;93m───────────────────────────[0m
+Format OpenClash : https://idjkt.szpremium.my.id:81/vmess-riki4.txt
+[1;93m───────────────────────────[0m
+Expired   : 2024-08-07
+[1;93m───────────────────────────[0m
+

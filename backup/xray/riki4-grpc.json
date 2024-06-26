@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "riki4",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "efd82c94-c302-43cc-98b4-176a181af47f",
+"aid": "0",
+"net": "grpc",
+"path": "vmess-grpc",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

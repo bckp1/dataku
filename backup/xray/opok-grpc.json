@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "opok",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "b0ac2140-888d-4502-8a83-91cd3de26764",
+"aid": "0",
+"net": "grpc",
+"path": "vmess-grpc",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

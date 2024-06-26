@@ -1,0 +1,20 @@
+[1;93m───────────────────────────[0m
+[92;1m    Xray/Trojan Account    [0m
+[1;93m───────────────────────────[0m
+Remarks     : backu
+Domain      : idjkt.szpremium.my.id
+Id          : 14d29205-8e84-45a4-a4d5-85fb3dff98d5
+Port TLS    : 443
+Port Grpc   : 443
+path        : /trojan
+servicename : trojan-grpc
+[1;93m───────────────────────────[0m
+Link WS    : trojan://14d29205-8e84-45a4-a4d5-85fb3dff98d5@idjkt.szpremium.my.id:443?path=%2Ftrojan-ws&security=tls&host=idjkt.szpremium.my.id&type=ws&sni=idjkt.szpremium.my.id#backu
+[1;93m───────────────────────────[0m
+Link GRPC  : trojan://14d29205-8e84-45a4-a4d5-85fb3dff98d5@idjkt.szpremium.my.id:443?mode=gun&security=tls&type=grpc&serviceName=trojan-grpc&sni=idjkt.szpremium.my.id#backu
+[1;93m───────────────────────────[0m
+Format OpenClash : https://idjkt.szpremium.my.id:81/trojan-backu.txt
+[1;93m───────────────────────────[0m
+Expired On : 2024-08-13
+[1;93m───────────────────────────[0m
+

@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "faldo",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "bed30ddd-985e-4905-b8bd-ba99b7330c7f",
+"aid": "0",
+"net": "ws",
+"path": "/vmess",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

@@ -1,0 +1,37 @@
+---------------------
+---------------------
+- name: Trojan-kasu
+server: idjkt.szpremium.my.id
+port: 443
+type: trojan
+password: 081352da-1034-47d3-9086-02c62a8702dd
+network: ws
+sni: idjkt.szpremium.my.id
+skip-cert-verify: true
+udp: true
+ws-opts:
+path: /trojan
+headers:
+Host: idjkt.szpremium.my.id
+---------------------
+---------------------
+- name: Trojan-kasu
+type: trojan
+server: idjkt.szpremium.my.id
+port: 443
+password: 081352da-1034-47d3-9086-02c62a8702dd
+udp: true
+sni: idjkt.szpremium.my.id
+skip-cert-verify: true
+network: grpc
+grpc-opts:
+grpc-service-name: trojan-grpc
+---------------------
+Link Trojan Account
+---------------------
+<code>Link WS          : </code>
+<code>trojan://081352da-1034-47d3-9086-02c62a8702dd@bugkamu.com:443?path=%2Ftrojan-ws&security=tls&host=idjkt.szpremium.my.id&type=ws&sni=idjkt.szpremium.my.id#kasu</code>
+---------------------
+<code>Link GRPC        : </code>
+<code>trojan://081352da-1034-47d3-9086-02c62a8702dd@idjkt.szpremium.my.id:443?mode=gun&security=tls&type=grpc&serviceName=trojan-grpc&sni=bug.com#kasu</code>
+---------------------

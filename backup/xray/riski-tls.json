@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "riski",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "0793145d-0cc3-46b3-bd5f-738d25642000",
+"aid": "0",
+"net": "ws",
+"path": "/vmess",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

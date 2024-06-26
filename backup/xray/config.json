@@ -1,0 +1,492 @@
+  {
+  "log": {
+    "loglevel": "warning",
+    "error": "/var/log/xray/error.log",
+    "access": "/var/log/xray/access.log"
+   },
+   "api": {
+    "services": [
+      "HandlerService",
+      "LoggerService",
+      "StatsService"
+     ],
+    "tag": "api"
+    },
+    "stats": {},
+    "policy": {
+    "levels": {
+      "0": {
+        "handshake": 2,
+        "connIdle": 128,
+        "statsUserUplink": true,
+        "statsUserDownlink": true
+        }
+       }
+      },
+      "inbounds": [
+      {
+      "listen": "127.0.0.1",
+      "port": 10000,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "127.0.0.1"
+      },
+      "tag": "api"
+      },
+      {
+     "listen": "127.0.0.1",
+     "port": "10001",
+     "protocol": "vless",
+      "settings": {
+          "decryption":"none",
+            "clients": [
+               {
+                 "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
+#vless
+             }
+          ]
+       },
+       "streamSettings":{
+         "network": "ws",
+            "wsSettings": {
+                "path": "/vless"
+          }
+        }
+     },
+     {
+     "listen": "127.0.0.1",
+     "port": "10002",
+     "protocol": "vmess",
+      "settings": {
+            "clients": [
+               {
+                 "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
+                 "alterId": 0
+#vmess
+### ctp 2024-07-01
+},{"id": "cd78470e-1731-4edc-bc75-544cded230e9","alterId": 0,"email": "ctp"
+### white 2025-06-19
+},{"id": "c5652c37-5b68-4c36-a269-09333fbfc283","alterId": 0,"email": "white"
+### ardiansyah 2024-07-23
+},{"id": "bb9c1dfe-1de0-4083-bb0f-743af0ae7697","alterId": 0,"email": "ardiansyah"
+### aril 2024-07-02
+},{"id": "1eada24f-2279-47f6-9551-817b5825ee1f","alterId": 0,"email": "aril"
+### slot 2024-06-28
+},{"id": "2edd35fd-a7b6-4bbf-a7ca-ac868555d2f5","alterId": 0,"email": "slot"
+### vpnadm 2024-09-19
+},{"id": "c1114a92-d2b3-4309-9c62-a9dc68dae900","alterId": 0,"email": "vpnadm"
+### abuy 2024-07-21
+},{"id": "949e0f8f-669a-4c0d-b0b4-bbb3bed85b37","alterId": 0,"email": "abuy"
+### heri111 2024-07-20
+},{"id": "19273f55-aadd-4096-ac16-12ba52e3137a","alterId": 0,"email": "heri111"
+### dower 2024-07-17
+},{"id": "46bf389b-cdfe-4730-8ffe-f16fe1bd120c","alterId": 0,"email": "dower"
+### riski 2024-07-15
+},{"id": "0793145d-0cc3-46b3-bd5f-738d25642000","alterId": 0,"email": "riski"
+### lampung 2024-08-13
+},{"id": "35ec2b34-deea-40da-a0d5-aad6415ef142","alterId": 0,"email": "lampung"
+### vmes 2024-08-12
+},{"id": "1e563a7a-ab81-4b50-9d72-e7bc8345241a","alterId": 0,"email": "vmes"
+### adi1 2024-07-13
+},{"id": "a1dfe5fd-544d-4295-8461-a8327ffa0ec3","alterId": 0,"email": "adi1"
+### riki6 2024-07-11
+},{"id": "32bd8430-959b-4fc1-8ac8-966072d69762","alterId": 0,"email": "riki6"
+### rikyi77 2024-07-10
+},{"id": "5bfe7e36-89d5-4574-ba80-57c4c29dad82","alterId": 0,"email": "rikyi77"
+### ditikdh 2024-07-09
+},{"id": "443b4d3f-b789-4913-94c2-970c6543554c","alterId": 0,"email": "ditikdh"
+### stbb 2024-07-09
+},{"id": "fc34680f-9f39-4369-a057-b15999371291","alterId": 0,"email": "stbb"
+### adminrc 2024-07-09
+},{"id": "a14dc5bb-9cb3-4de6-a8d3-ec05bd2b9487","alterId": 0,"email": "adminrc"
+### riki4 2024-08-07
+},{"id": "efd82c94-c302-43cc-98b4-176a181af47f","alterId": 0,"email": "riki4"
+### faldo 2024-07-08
+},{"id": "bed30ddd-985e-4905-b8bd-ba99b7330c7f","alterId": 0,"email": "faldo"
+### abuyyy 2024-07-23
+},{"id": "bc808893-62b6-4060-97fc-331b0cd84e8f","alterId": 0,"email": "abuyyy"
+### upen 2024-07-07
+},{"id": "4802ddf3-7edb-4f02-a887-95be718aeeaf","alterId": 0,"email": "upen"
+### amel 2024-07-07
+},{"id": "6894561a-d0e7-4108-a0c7-ae5c4d1909fa","alterId": 0,"email": "amel"
+### belajar 2024-07-05
+},{"id": "1ec09947-ba1e-4833-87fc-0b80becfb9e1","alterId": 0,"email": "belajar"
+### aldi 2024-07-04
+},{"id": "bafa4dd5-1608-4bc8-afd7-62eeb2eac2c1","alterId": 0,"email": "aldi"
+### adi 2024-07-03
+},{"id": "f6c69777-ad45-47bd-8614-b642437fcb20","alterId": 0,"email": "adi"
+             }
+          ]
+       },
+       "streamSettings":{
+         "network": "ws",
+            "wsSettings": {
+                "path": "/vmess"
+           }
+         }
+       },
+       {
+      "listen": "127.0.0.1",
+      "port": "10003",
+      "protocol": "trojan",
+      "settings": {
+          "decryption":"none",
+           "clients": [
+              {
+                 "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
+#trojanws
+#! backu 2024-08-13
+},{"password": "14d29205-8e84-45a4-a4d5-85fb3dff98d5","email": "backu"
+#! back 2024-08-13
+},{"password": "5aba78cf-396c-4705-ac37-fb470d2befc6","email": "back"
+#! riki7 2024-08-12
+},{"password": "fd4400d9-17aa-459f-a8fb-8f986d93a929","email": "riki7"
+#! trojanw 2024-08-12
+},{"password": "32c671f5-d711-4ca3-92e4-7981853baed8","email": "trojanw"
+#! kasus 2024-09-11
+},{"password": "619a601e-29f1-482e-92f0-8748034dd168","email": "kasus"
+#! kasu 2024-08-12
+},{"password": "081352da-1034-47d3-9086-02c62a8702dd","email": "kasu"
+#! trojanx 2024-08-12
+},{"password": "9d37f3b0-e590-46bc-ab68-4e6880b77a85","email": "trojanx"
+#! azkha 2024-07-11
+},{"password": "7f52b503-bd4c-4446-9ef1-1664b18f46fc","email": "azkha"
+#! riki5 2024-07-11
+},{"password": "f90ec548-428f-47d6-b199-a73ab8db0480","email": "riki5"
+#! riki 2024-09-06
+},{"password": "55c67914-3603-4a5e-88fd-de355fba0bc7","email": "riki"
+#! 21345 2024-07-07
+},{"password": "f5917548-43b2-4dca-8aef-6db4c2373e9c","email": "21345"
+#! kasur 2024-07-07
+},{"password": "12d98d47-1414-4948-b8cd-52e1fd8c2cf5","email": "kasur"
+#! stb 2024-09-05
+},{"password": "1af26a9b-0dcf-4112-9ccc-cb1238b2c893","email": "stb"
+              }
+          ],
+         "udp": true
+       },
+       "streamSettings":{
+           "network": "ws",
+           "wsSettings": {
+               "path": "/trojan-ws"
+            }
+         }
+     },
+      {
+         "listen": "127.0.0.1",
+        "port": "10004",
+        "protocol": "shadowsocks",
+        "settings": {
+           "clients": [
+           {
+           "method": "aes-128-gcm",
+          "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
+#ssws
+#!# riki3 2024-08-07
+},{"password": "797b13ca-cc33-4d5c-9f21-d328b54e4dd5","method": "aes-128-gcm","email": "riki3"
+#!# andri 2024-07-07
+},{"password": "f0934f77-3c1e-4101-ae5e-174374e27688","method": "aes-128-gcm","email": "andri"
+           }
+          ],
+          "network": "tcp,udp"
+       },
+       "streamSettings":{
+          "network": "ws",
+             "wsSettings": {
+               "path": "/ss-ws"
+           }
+        }
+     },
+      {
+        "listen": "127.0.0.1",
+        "port": "10005",
+        "protocol": "vless",
+        "settings": {
+         "decryption":"none",
+           "clients": [
+             {
+               "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
+#vlessgrpc
+             }
+          ]
+       },
+          "streamSettings":{
+             "network": "grpc",
+             "grpcSettings": {
+                "serviceName": "vless-grpc"
+           }
+        }
+     },
+     {
+      "listen": "127.0.0.1",
+      "port": "10006",
+     "protocol": "vmess",
+      "settings": {
+            "clients": [
+               {
+                 "id": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0",
+                 "alterId": 0
+#vmessgrpc
+### ctp 2024-07-01
+},{"id": "cd78470e-1731-4edc-bc75-544cded230e9","alterId": 0,"email": "ctp"
+### white 2025-06-19
+},{"id": "c5652c37-5b68-4c36-a269-09333fbfc283","alterId": 0,"email": "white"
+### ardiansyah 2024-07-23
+},{"id": "bb9c1dfe-1de0-4083-bb0f-743af0ae7697","alterId": 0,"email": "ardiansyah"
+### aril 2024-07-02
+},{"id": "1eada24f-2279-47f6-9551-817b5825ee1f","alterId": 0,"email": "aril"
+### slot 2024-06-28
+},{"id": "2edd35fd-a7b6-4bbf-a7ca-ac868555d2f5","alterId": 0,"email": "slot"
+### vpnadm 2024-09-19
+},{"id": "c1114a92-d2b3-4309-9c62-a9dc68dae900","alterId": 0,"email": "vpnadm"
+### abuy 2024-07-21
+},{"id": "949e0f8f-669a-4c0d-b0b4-bbb3bed85b37","alterId": 0,"email": "abuy"
+### heri111 2024-07-20
+},{"id": "19273f55-aadd-4096-ac16-12ba52e3137a","alterId": 0,"email": "heri111"
+### dower 2024-07-17
+},{"id": "46bf389b-cdfe-4730-8ffe-f16fe1bd120c","alterId": 0,"email": "dower"
+### riski 2024-07-15
+},{"id": "0793145d-0cc3-46b3-bd5f-738d25642000","alterId": 0,"email": "riski"
+### lampung 2024-08-13
+},{"id": "35ec2b34-deea-40da-a0d5-aad6415ef142","alterId": 0,"email": "lampung"
+### vmes 2024-08-12
+},{"id": "1e563a7a-ab81-4b50-9d72-e7bc8345241a","alterId": 0,"email": "vmes"
+### adi1 2024-07-13
+},{"id": "a1dfe5fd-544d-4295-8461-a8327ffa0ec3","alterId": 0,"email": "adi1"
+### riki6 2024-07-11
+},{"id": "32bd8430-959b-4fc1-8ac8-966072d69762","alterId": 0,"email": "riki6"
+### rikyi77 2024-07-10
+},{"id": "5bfe7e36-89d5-4574-ba80-57c4c29dad82","alterId": 0,"email": "rikyi77"
+### ditikdh 2024-07-09
+},{"id": "443b4d3f-b789-4913-94c2-970c6543554c","alterId": 0,"email": "ditikdh"
+### stbb 2024-07-09
+},{"id": "fc34680f-9f39-4369-a057-b15999371291","alterId": 0,"email": "stbb"
+### adminrc 2024-07-09
+},{"id": "a14dc5bb-9cb3-4de6-a8d3-ec05bd2b9487","alterId": 0,"email": "adminrc"
+### riki4 2024-08-07
+},{"id": "efd82c94-c302-43cc-98b4-176a181af47f","alterId": 0,"email": "riki4"
+### faldo 2024-07-08
+},{"id": "bed30ddd-985e-4905-b8bd-ba99b7330c7f","alterId": 0,"email": "faldo"
+### abuyyy 2024-07-23
+},{"id": "bc808893-62b6-4060-97fc-331b0cd84e8f","alterId": 0,"email": "abuyyy"
+### upen 2024-07-07
+},{"id": "4802ddf3-7edb-4f02-a887-95be718aeeaf","alterId": 0,"email": "upen"
+### amel 2024-07-07
+},{"id": "6894561a-d0e7-4108-a0c7-ae5c4d1909fa","alterId": 0,"email": "amel"
+### belajar 2024-07-05
+},{"id": "1ec09947-ba1e-4833-87fc-0b80becfb9e1","alterId": 0,"email": "belajar"
+### aldi 2024-07-04
+},{"id": "bafa4dd5-1608-4bc8-afd7-62eeb2eac2c1","alterId": 0,"email": "aldi"
+### adi 2024-07-03
+},{"id": "f6c69777-ad45-47bd-8614-b642437fcb20","alterId": 0,"email": "adi"
+             }
+          ]
+       },
+       "streamSettings":{
+         "network": "grpc",
+            "grpcSettings": {
+                "serviceName": "vmess-grpc"
+          }
+        }
+     },
+     {
+        "listen": "127.0.0.1",
+        "port": "10007",
+        "protocol": "trojan",
+        "settings": {
+          "decryption":"none",
+             "clients": [
+               {
+                 "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
+#trojangrpc
+#! backu 2024-08-13
+},{"password": "14d29205-8e84-45a4-a4d5-85fb3dff98d5","email": "backu"
+#! back 2024-08-13
+},{"password": "5aba78cf-396c-4705-ac37-fb470d2befc6","email": "back"
+#! riki7 2024-08-12
+},{"password": "fd4400d9-17aa-459f-a8fb-8f986d93a929","email": "riki7"
+#! trojanw 2024-08-12
+},{"password": "32c671f5-d711-4ca3-92e4-7981853baed8","email": "trojanw"
+#! kasus 2024-09-11
+},{"password": "619a601e-29f1-482e-92f0-8748034dd168","email": "kasus"
+#! kasu 2024-08-12
+},{"password": "081352da-1034-47d3-9086-02c62a8702dd","email": "kasu"
+#! trojanx 2024-08-12
+},{"password": "9d37f3b0-e590-46bc-ab68-4e6880b77a85","email": "trojanx"
+#! azkha 2024-07-11
+},{"password": "7f52b503-bd4c-4446-9ef1-1664b18f46fc","email": "azkha"
+#! riki5 2024-07-11
+},{"password": "f90ec548-428f-47d6-b199-a73ab8db0480","email": "riki5"
+#! riki 2024-09-06
+},{"password": "55c67914-3603-4a5e-88fd-de355fba0bc7","email": "riki"
+#! 21345 2024-07-07
+},{"password": "f5917548-43b2-4dca-8aef-6db4c2373e9c","email": "21345"
+#! kasur 2024-07-07
+},{"password": "12d98d47-1414-4948-b8cd-52e1fd8c2cf5","email": "kasur"
+#! stb 2024-09-05
+},{"password": "1af26a9b-0dcf-4112-9ccc-cb1238b2c893","email": "stb"
+               }
+           ]
+        },
+         "streamSettings":{
+         "network": "grpc",
+           "grpcSettings": {
+               "serviceName": "trojan-grpc"
+         }
+      }
+   },
+   {
+    "listen": "127.0.0.1",
+    "port": "10008",
+    "protocol": "shadowsocks",
+    "settings": {
+        "clients": [
+          {
+             "method": "aes-128-gcm",
+             "password": "1d1c1d94-6987-4658-a4dc-8821a30fe7e0"
+#ssgrpc 
+           }
+         ],
+           "network": "tcp,udp"
+      },
+    "streamSettings":{
+     "network": "grpc",
+        "grpcSettings": {
+           "serviceName": "ss-grpc"
+          }
+       }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {},
+      "tag": "blocked"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "inboundTag": [
+          "dnsIn"
+        ],
+        "outboundTag": "dnsOut",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "dnsQuery"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "outboundTag": "direct",
+        "protocol": [
+          "bittorrent"
+        ],
+        "type": "field"
+      },
+      {
+        "type": "field",
+        "outboundTag": "block",       
+        "ip": [
+          "0.0.0.0/8", "10.0.0.0/8", "100.64.0.0/10", "169.254.0.0/16", "172.16.0.0/12", "192.0.0.0/24", "192.0.2.0/24", "192.168.0.0/16", "198.18.0.0/15", "198.51.100.0/24", "203.0.113.0/24", "::1/128", "fc00::/7", "fe80::/10"]
+      },
+      {
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "type": "field"
+      },
+      {
+        "type": "field",
+        "outboundTag": "blocked",
+        "protocol": [
+          "bittorrent"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "proxy",
+        "ip": ["1.1.1.1/32", "1.0.0.1/32",
+          "8.8.8.8/32", "8.8.4.4/32", "geoip:us", "geoip:ca", "geoip:cloudflare", "geoip:cloudfront", "geoip:facebook", "geoip:fastly", "geoip:google", "geoip:netflix", "geoip:telegram", "geoip:yt", "geoip:twitter"]
+      },
+      {
+        "type": "field",
+        "outboundTag": "block",       
+        "ip": [
+          "0.0.0.0/8", "10.0.0.0/8", "100.64.0.0/10", "169.254.0.0/16", "172.16.0.0/12", "192.0.0.0/24", "192.0.2.0/24", "192.168.0.0/16", "198.18.0.0/15", "198.51.100.0/24", "203.0.113.0/24", "::1/128", "fc00::/7", "fe80::/10"]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": ["223.5.5.5/32", "119.29.29.29/32", "180.76.76.76/32", "114.114.114.114/32", "geoip:cn", "geoip:jp", "geoip:in", "geoip:private"]
+      },
+      {
+        "type": "field",
+        "outboundTag": "reject",
+        "domain": ["geosite:category-ads-all"]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "network": "tcp,udp"
+      } 
+    ]
+  },
+  "stats": {},
+  "api": {
+    "services": [
+      "StatsService"
+    ],
+    "tag": "api"
+  },
+  "policy": {
+    "levels": {
+      "0": {
+        "statsUserDownlink": true,
+        "statsUserUplink": true
+      }
+    },
+    "system": {
+      "statsInboundUplink": true,
+      "statsInboundDownlink": true,
+      "statsOutboundUplink" : true,
+      "statsOutboundDownlink" : true
+     }
+    },
+    "dns": {
+      "hosts": {
+        "dns.google": "8.8.8.8",
+        "dns.pub": "119.29.29.29",
+        "dns.alidns.com": "223.5.5.5",
+        "geosite:category-ads-all": "127.0.0.1"
+      },
+      "servers": [
+        {
+          "address": "https://1.1.1.1/dns-query",
+          "domains": ["geosite:geolocation-!cn"],
+          "expectIPs": ["geoip:!cn"]
+        },
+        "8.8.8.8",
+        {
+          "address": "114.114.114.114",
+          "port": 53,
+          "domains": ["geosite:cn", "geosite:category-games@cn"],
+          "expectIPs": ["geoip:cn"],
+          "skipFallback": true
+        },
+        {
+          "address": "localhost",
+          "skipFallback": true
+        }
+       ]
+      }
+    }

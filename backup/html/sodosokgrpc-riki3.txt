@@ -1,0 +1,103 @@
+{
+"dns": {
+"servers": [
+"8.8.8.8",
+"8.8.4.4"
+]
+},
+"inbounds": [
+{
+"port": 10808,
+"protocol": "socks",
+"settings": {
+"auth": "noauth",
+"udp": true,
+"userLevel": 8
+},
+"sniffing": {
+"destOverride": [
+"http",
+"tls"
+],
+"enabled": true
+},
+"tag": "socks"
+},
+{
+"port": 10809,
+"protocol": "http",
+"settings": {
+"userLevel": 8
+},
+"tag": "http"
+}
+],
+"log": {
+"loglevel": "none"
+},
+"outbounds": [
+{
+"mux": {
+"enabled": true
+},
+"protocol": "shadowsocks",
+"settings": {
+"servers": [
+{
+"address": "idjkt.szpremium.my.id",
+"level": 8,
+"method": "aes-128-gcm",
+"password": "797b13ca-cc33-4d5c-9f21-d328b54e4dd5",
+"port": 443
+}
+]
+},
+"streamSettings": {
+"grpcSettings": {
+"multiMode": true,
+"serviceName": "ss-grpc"
+},
+"network": "grpc",
+"security": "tls",
+"tlsSettings": {
+"allowInsecure": true,
+"serverName": "isi_bug_disini"
+}
+},
+"tag": "proxy"
+},
+{
+"protocol": "freedom",
+"settings": {},
+"tag": "direct"
+},
+{
+"protocol": "blackhole",
+"settings": {
+"response": {
+"type": "http"
+}
+},
+"tag": "block"
+}
+],
+"policy": {
+"levels": {
+"8": {
+"connIdle": 300,
+"downlinkOnly": 1,
+"handshake": 4,
+"uplinkOnly": 1
+}
+},
+"system": {
+"statsOutboundUplink": true,
+"statsOutboundDownlink": true
+}
+},
+"routing": {
+"domainStrategy": "Asls",
+"rules": []
+},
+"stats": {}
+}

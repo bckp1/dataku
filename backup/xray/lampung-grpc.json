@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "lampung",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "35ec2b34-deea-40da-a0d5-aad6415ef142",
+"aid": "0",
+"net": "grpc",
+"path": "vmess-grpc",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

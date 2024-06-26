@@ -1,0 +1,37 @@
+---------------------
+---------------------
+- name: Trojan-riki7
+server: idjkt.szpremium.my.id
+port: 443
+type: trojan
+password: fd4400d9-17aa-459f-a8fb-8f986d93a929
+network: ws
+sni: idjkt.szpremium.my.id
+skip-cert-verify: true
+udp: true
+ws-opts:
+path: /trojan
+headers:
+Host: idjkt.szpremium.my.id
+---------------------
+---------------------
+- name: Trojan-riki7
+type: trojan
+server: idjkt.szpremium.my.id
+port: 443
+password: fd4400d9-17aa-459f-a8fb-8f986d93a929
+udp: true
+sni: idjkt.szpremium.my.id
+skip-cert-verify: true
+network: grpc
+grpc-opts:
+grpc-service-name: trojan-grpc
+---------------------
+Link Trojan Account
+---------------------
+<code>Link WS          : </code>
+<code>trojan://fd4400d9-17aa-459f-a8fb-8f986d93a929@bugkamu.com:443?path=%2Ftrojan-ws&security=tls&host=idjkt.szpremium.my.id&type=ws&sni=idjkt.szpremium.my.id#riki7</code>
+---------------------
+<code>Link GRPC        : </code>
+<code>trojan://fd4400d9-17aa-459f-a8fb-8f986d93a929@idjkt.szpremium.my.id:443?mode=gun&security=tls&type=grpc&serviceName=trojan-grpc&sni=bug.com#riki7</code>
+---------------------

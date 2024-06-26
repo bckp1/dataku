@@ -1,0 +1,59 @@
+---------------------
+---------------------
+- name: Vmess-ardiansyah
+type: vmess
+server: idjkt.szpremium.my.id
+port: 443
+uuid: bb9c1dfe-1de0-4083-bb0f-743af0ae7697
+alterId: 0
+cipher: auto
+udp: true
+tls: true
+skip-cert-verify: true
+servername: idjkt.szpremium.my.id
+network: ws
+ws-opts:
+path: /vmess
+headers:
+Host: idjkt.szpremium.my.id
+---------------------
+---------------------
+- name: Vmess-ardiansyah
+type: vmess
+server: idjkt.szpremium.my.id
+port: 80
+uuid: bb9c1dfe-1de0-4083-bb0f-743af0ae7697
+alterId: 0
+cipher: auto
+udp: true
+tls: false
+skip-cert-verify: false
+servername: idjkt.szpremium.my.id
+network: ws
+ws-opts:
+path: /vmess
+headers:
+Host: idjkt.szpremium.my.id
+---------------------
+---------------------
+- name: Vmess-ardiansyah
+server: idjkt.szpremium.my.id
+port: 443
+type: vmess
+uuid: bb9c1dfe-1de0-4083-bb0f-743af0ae7697
+alterId: 0
+cipher: auto
+network: grpc
+tls: true
+servername: idjkt.szpremium.my.id
+skip-cert-verify: true
+grpc-opts:
+grpc-service-name: vmess-grpc
+---------------------
+---------------------
+Link TLS : vmess://ewoidiI6ICIyIiwKInBzIjogImFyZGlhbnN5YWgiLAoiYWRkIjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJwb3J0IjogIjQ0MyIsCiJpZCI6ICJiYjljMWRmZS0xZGUwLTQwODMtYmIwZi03NDNhZjBhZTc2OTciLAoiYWlkIjogIjAiLAoibmV0IjogIndzIiwKInBhdGgiOiAiL3ZtZXNzIiwKInR5cGUiOiAibm9uZSIsCiJob3N0IjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJ0bHMiOiAidGxzIgp9Cg==
+---------------------
+Link none TLS : vmess://ewoidiI6ICIyIiwKInBzIjogImFyZGlhbnN5YWgiLAoiYWRkIjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJwb3J0IjogIjgwIiwKImlkIjogImJiOWMxZGZlLTFkZTAtNDA4My1iYjBmLTc0M2FmMGFlNzY5NyIsCiJhaWQiOiAiMCIsCiJuZXQiOiAid3MiLAoicGF0aCI6ICIvdm1lc3MiLAoidHlwZSI6ICJub25lIiwKImhvc3QiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInRscyI6ICJub25lIgp9Cg==
+---------------------
+Link GRPC : vmess://ewoidiI6ICIyIiwKInBzIjogImFyZGlhbnN5YWgiLAoiYWRkIjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJwb3J0IjogIjQ0MyIsCiJpZCI6ICJiYjljMWRmZS0xZGUwLTQwODMtYmIwZi03NDNhZjBhZTc2OTciLAoiYWlkIjogIjAiLAoibmV0IjogImdycGMiLAoicGF0aCI6ICJ2bWVzcy1ncnBjIiwKInR5cGUiOiAibm9uZSIsCiJob3N0IjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJ0bHMiOiAidGxzIgp9Cg==
+---------------------

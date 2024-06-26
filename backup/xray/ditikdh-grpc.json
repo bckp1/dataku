@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "ditikdh",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "443b4d3f-b789-4913-94c2-970c6543554c",
+"aid": "0",
+"net": "grpc",
+"path": "vmess-grpc",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "Trial_Z225",
+"add": "idjkt.szpremium.my.id",
+"port": "80",
+"id": "cd283217-9b74-4237-be2f-69e52a07b9ab",
+"aid": "0",
+"net": "ws",
+"path": "/vmess",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "none"
+}

@@ -1,0 +1,25 @@
+[1;93m───────────────────────────[0m
+[92;1m    Xray/Vmess Account    [0m
+[1;93m───────────────────────────[0m
+Remarks       : paseo
+Domain        : idjkt.szpremium.my.id
+id            : 84025aed-375e-4514-80b6-68c0181cf6fa
+Port TLS      : 443
+Port none TLS : 80, 8080
+Port GRPC     : 443
+Security      : auto
+network       : WS or gRPC
+path          : /vmess 
+ServiceName   : vmess-grpc
+[1;93m───────────────────────────[0m
+Link TLS  : vmess://ewoidiI6ICIyIiwKInBzIjogInBhc2VvIiwKImFkZCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoicG9ydCI6ICI0NDMiLAoiaWQiOiAiODQwMjVhZWQtMzc1ZS00NTE0LTgwYjYtNjhjMDE4MWNmNmZhIiwKImFpZCI6ICIwIiwKIm5ldCI6ICJ3cyIsCiJwYXRoIjogIi92bWVzcyIsCiJ0eXBlIjogIm5vbmUiLAoiaG9zdCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoidGxzIjogInRscyIKfQo=
+[1;93m───────────────────────────[0m
+Link NTLS : vmess://ewoidiI6ICIyIiwKInBzIjogInBhc2VvIiwKImFkZCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoicG9ydCI6ICI4MCIsCiJpZCI6ICI4NDAyNWFlZC0zNzVlLTQ1MTQtODBiNi02OGMwMTgxY2Y2ZmEiLAoiYWlkIjogIjAiLAoibmV0IjogIndzIiwKInBhdGgiOiAiL3ZtZXNzIiwKInR5cGUiOiAibm9uZSIsCiJob3N0IjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJ0bHMiOiAibm9uZSIKfQo=
+[1;93m───────────────────────────[0m
+Link GRPC : vmess://ewoidiI6ICIyIiwKInBzIjogInBhc2VvIiwKImFkZCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoicG9ydCI6ICI0NDMiLAoiaWQiOiAiODQwMjVhZWQtMzc1ZS00NTE0LTgwYjYtNjhjMDE4MWNmNmZhIiwKImFpZCI6ICIwIiwKIm5ldCI6ICJncnBjIiwKInBhdGgiOiAidm1lc3MtZ3JwYyIsCiJ0eXBlIjogIm5vbmUiLAoiaG9zdCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoidGxzIjogInRscyIKfQo=
+[1;93m───────────────────────────[0m
+Format OpenClash : https://idjkt.szpremium.my.id:81/vmess-paseo.txt
+[1;93m───────────────────────────[0m
+Expired   : 2024-06-10
+[1;93m───────────────────────────[0m
+

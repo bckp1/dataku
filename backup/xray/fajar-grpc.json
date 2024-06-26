@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "fajar",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "55da06e1-63cf-4320-a6b7-2e8dc0af0332",
+"aid": "0",
+"net": "grpc",
+"path": "vmess-grpc",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "abuy",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "949e0f8f-669a-4c0d-b0b4-bbb3bed85b37",
+"aid": "0",
+"net": "ws",
+"path": "/vmess",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

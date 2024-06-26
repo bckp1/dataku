@@ -1,0 +1,20 @@
+[1;93m───────────────────────────[0m
+[92;1m    Xray/Trojan Account    [0m
+[1;93m───────────────────────────[0m
+Remarks     : azkha
+Domain      : idjkt.szpremium.my.id
+Id          : 7f52b503-bd4c-4446-9ef1-1664b18f46fc
+Port TLS    : 443
+Port Grpc   : 443
+path        : /trojan
+servicename : trojan-grpc
+[1;93m───────────────────────────[0m
+Link WS    : trojan://7f52b503-bd4c-4446-9ef1-1664b18f46fc@idjkt.szpremium.my.id:443?path=%2Ftrojan-ws&security=tls&host=idjkt.szpremium.my.id&type=ws&sni=idjkt.szpremium.my.id#azkha
+[1;93m───────────────────────────[0m
+Link GRPC  : trojan://7f52b503-bd4c-4446-9ef1-1664b18f46fc@idjkt.szpremium.my.id:443?mode=gun&security=tls&type=grpc&serviceName=trojan-grpc&sni=idjkt.szpremium.my.id#azkha
+[1;93m───────────────────────────[0m
+Format OpenClash : https://idjkt.szpremium.my.id:81/trojan-azkha.txt
+[1;93m───────────────────────────[0m
+Expired On : 2024-07-11
+[1;93m───────────────────────────[0m
+

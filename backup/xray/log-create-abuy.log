@@ -1,0 +1,25 @@
+[1;93m───────────────────────────[0m
+[92;1m    Xray/Vmess Account    [0m
+[1;93m───────────────────────────[0m
+Remarks       : abuy
+Domain        : idjkt.szpremium.my.id
+id            : 949e0f8f-669a-4c0d-b0b4-bbb3bed85b37
+Port TLS      : 443
+Port none TLS : 80, 8080
+Port GRPC     : 443
+Security      : auto
+network       : WS or gRPC
+path          : /vmess 
+ServiceName   : vmess-grpc
+[1;93m───────────────────────────[0m
+Link TLS  : vmess://ewoidiI6ICIyIiwKInBzIjogImFidXkiLAoiYWRkIjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJwb3J0IjogIjQ0MyIsCiJpZCI6ICI5NDllMGY4Zi02NjlhLTRjMGQtYjBiNC1iYmIzYmVkODViMzciLAoiYWlkIjogIjAiLAoibmV0IjogIndzIiwKInBhdGgiOiAiL3ZtZXNzIiwKInR5cGUiOiAibm9uZSIsCiJob3N0IjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJ0bHMiOiAidGxzIgp9Cg==
+[1;93m───────────────────────────[0m
+Link NTLS : vmess://ewoidiI6ICIyIiwKInBzIjogImFidXkiLAoiYWRkIjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJwb3J0IjogIjgwIiwKImlkIjogIjk0OWUwZjhmLTY2OWEtNGMwZC1iMGI0LWJiYjNiZWQ4NWIzNyIsCiJhaWQiOiAiMCIsCiJuZXQiOiAid3MiLAoicGF0aCI6ICIvdm1lc3MiLAoidHlwZSI6ICJub25lIiwKImhvc3QiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInRscyI6ICJub25lIgp9Cg==
+[1;93m───────────────────────────[0m
+Link GRPC : vmess://ewoidiI6ICIyIiwKInBzIjogImFidXkiLAoiYWRkIjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJwb3J0IjogIjQ0MyIsCiJpZCI6ICI5NDllMGY4Zi02NjlhLTRjMGQtYjBiNC1iYmIzYmVkODViMzciLAoiYWlkIjogIjAiLAoibmV0IjogImdycGMiLAoicGF0aCI6ICJ2bWVzcy1ncnBjIiwKInR5cGUiOiAibm9uZSIsCiJob3N0IjogImlkamt0LnN6cHJlbWl1bS5teS5pZCIsCiJ0bHMiOiAidGxzIgp9Cg==
+[1;93m───────────────────────────[0m
+Format OpenClash : https://idjkt.szpremium.my.id:81/vmess-abuy.txt
+[1;93m───────────────────────────[0m
+Expired   : 2024-07-21
+[1;93m───────────────────────────[0m
+

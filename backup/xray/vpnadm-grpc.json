@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "vpnadm",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "c1114a92-d2b3-4309-9c62-a9dc68dae900",
+"aid": "0",
+"net": "grpc",
+"path": "vmess-grpc",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

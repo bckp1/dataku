@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "heri111",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "19273f55-aadd-4096-ac16-12ba52e3137a",
+"aid": "0",
+"net": "grpc",
+"path": "vmess-grpc",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

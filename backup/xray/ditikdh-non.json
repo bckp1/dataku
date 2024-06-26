@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "ditikdh",
+"add": "idjkt.szpremium.my.id",
+"port": "80",
+"id": "443b4d3f-b789-4913-94c2-970c6543554c",
+"aid": "0",
+"net": "ws",
+"path": "/vmess",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "none"
+}

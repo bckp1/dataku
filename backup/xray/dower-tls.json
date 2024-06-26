@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "dower",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "46bf389b-cdfe-4730-8ffe-f16fe1bd120c",
+"aid": "0",
+"net": "ws",
+"path": "/vmess",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

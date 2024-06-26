@@ -1,0 +1,23 @@
+[1;93m───────────────────────────[0m
+[92;1m    Xray/Vless Account    [0m
+[1;93m───────────────────────────[0m
+Remarks        : lemah
+Domain         : idjkt.szpremium.my.id
+Port TLS       : 443
+Port none TLS  : 80, 8080
+id             : ba37da9d-7604-489d-9907-04fe8baa046d
+network        : ws or grpc
+path           : /vless 
+servicename    : vless-grpc
+[1;93m───────────────────────────[0m
+Link TLS  : vless://ba37da9d-7604-489d-9907-04fe8baa046d@idjkt.szpremium.my.id:443?path=/whatever/vless&security=tls&encryption=none&type=ws#lemah-WS-(CDN)-TLS
+[1;93m───────────────────────────[0m
+Link NTLS : vless://ba37da9d-7604-489d-9907-04fe8baa046d@idjkt.szpremium.my.id:80?path=/whatever/vless&encryption=none&type=ws#lemah-WS-(CDN)-NTLS
+[1;93m───────────────────────────[0m
+Link GRPC : vless://ba37da9d-7604-489d-9907-04fe8baa046d@idjkt.szpremium.my.id:443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=vless-grpc&sni=idjkt.szpremium.my.id#lemah-(SNI)-GRPC
+[1;93m───────────────────────────[0m
+Format OpenClash : https://idjkt.szpremium.my.id:81/vless-lemah.txt
+[1;93m───────────────────────────[0m
+Expired   : 2024-06-16
+[1;93m───────────────────────────[0m
+

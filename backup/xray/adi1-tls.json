@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "adi1",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "a1dfe5fd-544d-4295-8461-a8327ffa0ec3",
+"aid": "0",
+"net": "ws",
+"path": "/vmess",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

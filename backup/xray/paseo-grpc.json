@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "paseo",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "84025aed-375e-4514-80b6-68c0181cf6fa",
+"aid": "0",
+"net": "grpc",
+"path": "vmess-grpc",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

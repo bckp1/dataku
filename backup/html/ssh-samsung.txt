@@ -1,0 +1,32 @@
+---------------------
+Format SSH OVPN Account
+---------------------
+Username         : samsung
+Password         : 1
+---------------------
+IP               : 2
+Host             : idjkt.szpremium.my.id
+Host Slowdns     : 54gglv1.sloowdns.my.id
+Pub Key          : 764ff57b12d9221b2d7185ad92a19c3bcc541942ba771138596f3b3b1f1a9d5d
+Location         : Jakarta
+Port OpenSSH     : 443, 80, 22
+Port UdpSSH      : 1-65535
+Port Dropbear    : 443, 109
+Port Dropbear WS : 443, 109
+Port SSH WS      : 80
+Port SSH SSL WS  : 443
+Port SSL/TLS     : 443
+Port OVPN WS SSL : 443
+Port OVPN SSL    : 443
+Port OVPN TCP    : 443, 1194
+Port OVPN UDP    : 2200
+Proxy Squid 1    : 3128
+Proxy Squid 2    : 8000
+Proxy Squid 3    : 8080
+BadVPN UDP       : 7100, 7300, 7300
+---------------------
+Payload WSS: GET wss://BUG.COM/ HTTP/1.1[crlf]Host: idjkt.szpremium.my.id[crlf]Upgrade: websocket[crlf][crlf]
+---------------------
+OpenVPN Link     : http://idjkt.szpremium.my.id:85
+---------------------
+Expired          : Jul 04, 2024

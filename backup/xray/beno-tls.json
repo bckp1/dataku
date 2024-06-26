@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "beno",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "964b4cdd-f60e-452b-b891-cf7ec9e02a09",
+"aid": "0",
+"net": "ws",
+"path": "/vmess",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

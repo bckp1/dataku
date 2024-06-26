@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "glue",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "3687bb5d-9a94-4b91-ac20-34ccaa9493b8",
+"aid": "0",
+"net": "grpc",
+"path": "vmess-grpc",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

@@ -1,0 +1,37 @@
+---------------------
+---------------------
+- name: Trojan-backu
+server: idjkt.szpremium.my.id
+port: 443
+type: trojan
+password: 14d29205-8e84-45a4-a4d5-85fb3dff98d5
+network: ws
+sni: idjkt.szpremium.my.id
+skip-cert-verify: true
+udp: true
+ws-opts:
+path: /trojan
+headers:
+Host: idjkt.szpremium.my.id
+---------------------
+---------------------
+- name: Trojan-backu
+type: trojan
+server: idjkt.szpremium.my.id
+port: 443
+password: 14d29205-8e84-45a4-a4d5-85fb3dff98d5
+udp: true
+sni: idjkt.szpremium.my.id
+skip-cert-verify: true
+network: grpc
+grpc-opts:
+grpc-service-name: trojan-grpc
+---------------------
+Link Trojan Account
+---------------------
+<code>Link WS          : </code>
+<code>trojan://14d29205-8e84-45a4-a4d5-85fb3dff98d5@bugkamu.com:443?path=%2Ftrojan-ws&security=tls&host=idjkt.szpremium.my.id&type=ws&sni=idjkt.szpremium.my.id#backu</code>
+---------------------
+<code>Link GRPC        : </code>
+<code>trojan://14d29205-8e84-45a4-a4d5-85fb3dff98d5@idjkt.szpremium.my.id:443?mode=gun&security=tls&type=grpc&serviceName=trojan-grpc&sni=bug.com#backu</code>
+---------------------
