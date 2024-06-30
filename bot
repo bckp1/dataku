@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir -p /etc/per touch /etc/per/id touch /etc/per/token rm -rf /etc/perlogin 
+mkdir -p /etc/perlogin cd /etc/perlogin touch token
+touch id

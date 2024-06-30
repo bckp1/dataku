@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "medii",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "dd850f61-4b90-472f-a463-f792b597edb2",
+"aid": "0",
+"net": "grpc",
+"path": "vmess-grpc",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

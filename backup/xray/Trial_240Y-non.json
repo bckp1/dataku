@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "Trial_240Y",
+"add": "idjkt.szpremium.my.id",
+"port": "80",
+"id": "b41bcd8a-06f0-4d90-a8ba-94578b57d467",
+"aid": "0",
+"net": "ws",
+"path": "/vmess",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "none"
+}

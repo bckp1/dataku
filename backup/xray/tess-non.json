@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "tess",
+"add": "idjkt.szpremium.my.id",
+"port": "80",
+"id": "f3b261dd-ddbf-40e4-84f5-59494d8ad0b7",
+"aid": "0",
+"net": "ws",
+"path": "/vmess",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "none"
+}

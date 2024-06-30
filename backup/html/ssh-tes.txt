@@ -1,0 +1,34 @@
+
+---------------------
+Format SSH OVPN Account
+---------------------
+Username         : tes
+Password         : 1
+---------------------
+IP               : 1
+Host             : idjkt.szpremium.my.id
+Host Slowdns     : 758rlpb.sloowdns.my.id
+Pub Key          : 2cc04168a9e493d9a9dfb6495c0a425499210aaf08ae3fe2bd0dcd2e35427406
+Location         : Jakarta
+Port OpenSSH     : 443, 80, 22
+Port UdpSSH      : 1-65535
+Port Dropbear    : 443, 109
+Port Dropbear WS : 443, 109
+Port SSH WS      : 80
+Port SSH SSL WS  : 443
+Port SSL/TLS     : 443
+Port OVPN WS SSL : 443
+Port OVPN SSL    : 443
+Port OVPN TCP    : 443, 1194
+Port OVPN UDP    : 2200
+Proxy Squid 1    : 3128
+Proxy Squid 2    : 8000
+Proxy Squid 3    : 8080
+BadVPN UDP       : 7100, 7300, 7300
+---------------------
+Payload WSS: GET wss://BUG.COM/ HTTP/1.1[crlf]Host: idjkt.szpremium.my.id[crlf]Upgrade: websocket[crlf][crlf] 
+---------------------
+OpenVPN Link     : http://idjkt.szpremium.my.id:85
+---------------------
+Expired          : Jul 01, 2024
+

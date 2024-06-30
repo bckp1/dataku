@@ -1,0 +1,25 @@
+[1;93m───────────────────────────[0m
+[92;1m    Xray/Vmess Account    [0m
+[1;93m───────────────────────────[0m
+Remarks       : viktor
+Domain        : idjkt.szpremium.my.id
+id            : 9a94987b-dc45-4c0a-8707-202686f4a87d
+Port TLS      : 443
+Port none TLS : 80, 8080
+Port GRPC     : 443
+Security      : auto
+network       : WS or gRPC
+path          : /vmess 
+ServiceName   : vmess-grpc
+[1;93m───────────────────────────[0m
+Link TLS  : vmess://ewoidiI6ICIyIiwKInBzIjogInZpa3RvciIsCiJhZGQiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInBvcnQiOiAiNDQzIiwKImlkIjogIjlhOTQ5ODdiLWRjNDUtNGMwYS04NzA3LTIwMjY4NmY0YTg3ZCIsCiJhaWQiOiAiMCIsCiJuZXQiOiAid3MiLAoicGF0aCI6ICIvdm1lc3MiLAoidHlwZSI6ICJub25lIiwKImhvc3QiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInRscyI6ICJ0bHMiCn0K
+[1;93m───────────────────────────[0m
+Link NTLS : vmess://ewoidiI6ICIyIiwKInBzIjogInZpa3RvciIsCiJhZGQiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInBvcnQiOiAiODAiLAoiaWQiOiAiOWE5NDk4N2ItZGM0NS00YzBhLTg3MDctMjAyNjg2ZjRhODdkIiwKImFpZCI6ICIwIiwKIm5ldCI6ICJ3cyIsCiJwYXRoIjogIi92bWVzcyIsCiJ0eXBlIjogIm5vbmUiLAoiaG9zdCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoidGxzIjogIm5vbmUiCn0K
+[1;93m───────────────────────────[0m
+Link GRPC : vmess://ewoidiI6ICIyIiwKInBzIjogInZpa3RvciIsCiJhZGQiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInBvcnQiOiAiNDQzIiwKImlkIjogIjlhOTQ5ODdiLWRjNDUtNGMwYS04NzA3LTIwMjY4NmY0YTg3ZCIsCiJhaWQiOiAiMCIsCiJuZXQiOiAiZ3JwYyIsCiJwYXRoIjogInZtZXNzLWdycGMiLAoidHlwZSI6ICJub25lIiwKImhvc3QiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInRscyI6ICJ0bHMiCn0K
+[1;93m───────────────────────────[0m
+Format OpenClash : https://idjkt.szpremium.my.id:81/vmess-viktor.txt
+[1;93m───────────────────────────[0m
+Expired   : 2024-07-28
+[1;93m───────────────────────────[0m
+

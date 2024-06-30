@@ -1,0 +1,25 @@
+[1;93m───────────────────────────[0m
+[92;1m    Xray/Vmess Account    [0m
+[1;93m───────────────────────────[0m
+Remarks       : omp420
+Domain        : idjkt.szpremium.my.id
+id            : 07cc2a99-83d2-4ede-b01b-f194105f40ad
+Port TLS      : 443
+Port none TLS : 80, 8080
+Port GRPC     : 443
+Security      : auto
+network       : WS or gRPC
+path          : /vmess 
+ServiceName   : vmess-grpc
+[1;93m───────────────────────────[0m
+Link TLS  : vmess://ewoidiI6ICIyIiwKInBzIjogIm9tcDQyMCIsCiJhZGQiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInBvcnQiOiAiNDQzIiwKImlkIjogIjA3Y2MyYTk5LTgzZDItNGVkZS1iMDFiLWYxOTQxMDVmNDBhZCIsCiJhaWQiOiAiMCIsCiJuZXQiOiAid3MiLAoicGF0aCI6ICIvdm1lc3MiLAoidHlwZSI6ICJub25lIiwKImhvc3QiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInRscyI6ICJ0bHMiCn0K
+[1;93m───────────────────────────[0m
+Link NTLS : vmess://ewoidiI6ICIyIiwKInBzIjogIm9tcDQyMCIsCiJhZGQiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInBvcnQiOiAiODAiLAoiaWQiOiAiMDdjYzJhOTktODNkMi00ZWRlLWIwMWItZjE5NDEwNWY0MGFkIiwKImFpZCI6ICIwIiwKIm5ldCI6ICJ3cyIsCiJwYXRoIjogIi92bWVzcyIsCiJ0eXBlIjogIm5vbmUiLAoiaG9zdCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoidGxzIjogIm5vbmUiCn0K
+[1;93m───────────────────────────[0m
+Link GRPC : vmess://ewoidiI6ICIyIiwKInBzIjogIm9tcDQyMCIsCiJhZGQiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInBvcnQiOiAiNDQzIiwKImlkIjogIjA3Y2MyYTk5LTgzZDItNGVkZS1iMDFiLWYxOTQxMDVmNDBhZCIsCiJhaWQiOiAiMCIsCiJuZXQiOiAiZ3JwYyIsCiJwYXRoIjogInZtZXNzLWdycGMiLAoidHlwZSI6ICJub25lIiwKImhvc3QiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInRscyI6ICJ0bHMiCn0K
+[1;93m───────────────────────────[0m
+Format OpenClash : https://idjkt.szpremium.my.id:81/vmess-omp420.txt
+[1;93m───────────────────────────[0m
+Expired   : 2024-07-29
+[1;93m───────────────────────────[0m
+

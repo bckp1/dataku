@@ -1,0 +1,59 @@
+---------------------
+---------------------
+- name: Vmess-omp420
+type: vmess
+server: idjkt.szpremium.my.id
+port: 443
+uuid: 07cc2a99-83d2-4ede-b01b-f194105f40ad
+alterId: 0
+cipher: auto
+udp: true
+tls: true
+skip-cert-verify: true
+servername: idjkt.szpremium.my.id
+network: ws
+ws-opts:
+path: /vmess
+headers:
+Host: idjkt.szpremium.my.id
+---------------------
+---------------------
+- name: Vmess-omp420
+type: vmess
+server: idjkt.szpremium.my.id
+port: 80
+uuid: 07cc2a99-83d2-4ede-b01b-f194105f40ad
+alterId: 0
+cipher: auto
+udp: true
+tls: false
+skip-cert-verify: false
+servername: idjkt.szpremium.my.id
+network: ws
+ws-opts:
+path: /vmess
+headers:
+Host: idjkt.szpremium.my.id
+---------------------
+---------------------
+- name: Vmess-omp420
+server: idjkt.szpremium.my.id
+port: 443
+type: vmess
+uuid: 07cc2a99-83d2-4ede-b01b-f194105f40ad
+alterId: 0
+cipher: auto
+network: grpc
+tls: true
+servername: idjkt.szpremium.my.id
+skip-cert-verify: true
+grpc-opts:
+grpc-service-name: vmess-grpc
+---------------------
+---------------------
+Link TLS : vmess://ewoidiI6ICIyIiwKInBzIjogIm9tcDQyMCIsCiJhZGQiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInBvcnQiOiAiNDQzIiwKImlkIjogIjA3Y2MyYTk5LTgzZDItNGVkZS1iMDFiLWYxOTQxMDVmNDBhZCIsCiJhaWQiOiAiMCIsCiJuZXQiOiAid3MiLAoicGF0aCI6ICIvdm1lc3MiLAoidHlwZSI6ICJub25lIiwKImhvc3QiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInRscyI6ICJ0bHMiCn0K
+---------------------
+Link none TLS : vmess://ewoidiI6ICIyIiwKInBzIjogIm9tcDQyMCIsCiJhZGQiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInBvcnQiOiAiODAiLAoiaWQiOiAiMDdjYzJhOTktODNkMi00ZWRlLWIwMWItZjE5NDEwNWY0MGFkIiwKImFpZCI6ICIwIiwKIm5ldCI6ICJ3cyIsCiJwYXRoIjogIi92bWVzcyIsCiJ0eXBlIjogIm5vbmUiLAoiaG9zdCI6ICJpZGprdC5zenByZW1pdW0ubXkuaWQiLAoidGxzIjogIm5vbmUiCn0K
+---------------------
+Link GRPC : vmess://ewoidiI6ICIyIiwKInBzIjogIm9tcDQyMCIsCiJhZGQiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInBvcnQiOiAiNDQzIiwKImlkIjogIjA3Y2MyYTk5LTgzZDItNGVkZS1iMDFiLWYxOTQxMDVmNDBhZCIsCiJhaWQiOiAiMCIsCiJuZXQiOiAiZ3JwYyIsCiJwYXRoIjogInZtZXNzLWdycGMiLAoidHlwZSI6ICJub25lIiwKImhvc3QiOiAiaWRqa3Quc3pwcmVtaXVtLm15LmlkIiwKInRscyI6ICJ0bHMiCn0K
+---------------------

@@ -1,0 +1,13 @@
+{
+"v": "2",
+"ps": "Trial_919Z",
+"add": "idjkt.szpremium.my.id",
+"port": "443",
+"id": "7cef81cb-bb91-4a73-9b78-6aba3b645e01",
+"aid": "0",
+"net": "grpc",
+"path": "vmess-grpc",
+"type": "none",
+"host": "idjkt.szpremium.my.id",
+"tls": "tls"
+}

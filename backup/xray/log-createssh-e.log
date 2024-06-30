@@ -1,0 +1,30 @@
+[1;93m───────────────────────────[0m
+[92;1m     SSH OVPN Account     [0m
+[1;93m───────────────────────────[0m
+» Username         : e
+» Password         : 1
+[1;93m───────────────────────────[0m
+» Limit IP         : 1
+» Host             : idjkt.szpremium.my.id
+» Port OpenSSH     : 443, 80, 22
+» Port UdpSSH      : 1-65535
+» Port DNS         : 53 ,5300 
+» Port Dropbear    : 443, 109
+» Port Dropbear WS : 443, 109
+» Port SSH WS      : 80, 8080
+» Port SSH SSL WS  : 443
+» Port SSL/TLS     : 443
+» Port OVPN WS SSL : 443
+» Port OVPN SSL    : 443
+» Port OVPN TCP    : 443, 1194
+» Port OVPN UDP    : 2200
+» Proxy Squid      : 3128
+» BadVPN UDP       : 7100, 7300, 7300
+[1;93m───────────────────────────[0m
+» Payload WSS      : GET wss://BUG.COM/ HTTP/1.1[crlf]Host: idjkt.szpremium.my.id[crlf]Upgrade: websocket[crlf][crlf]
+[1;93m───────────────────────────[0m
+» OpenVPN Link     : https://idjkt.szpremium.my.id:81
+[1;93m───────────────────────────[0m
+[1;93m───────────────────────────[0m
+» Expired          : Jul 01, 2024
+
