@@ -1,13 +1,2 @@
-Sucsesfully Backup On 06-30-2024 Time 10:57:01.
-Sucsesfully Backup On 06-30-2024 Time 11:57:01.
-Sucsesfully Backup On 06-30-2024 Time 12:57:01.
-Sucsesfully Backup On 06-30-2024 Time 13:57:01.
-Sucsesfully Backup On 06-30-2024 Time 14:57:01.
-Sucsesfully Backup On 06-30-2024 Time 15:57:01.
-Sucsesfully Backup On 06-30-2024 Time 16:57:01.
-Sucsesfully Backup On 06-30-2024 Time 17:57:03.
-Sucsesfully Backup On 06-30-2024 Time 18:57:02.
-Sucsesfully Backup On 06-30-2024 Time 19:57:03.
-Sucsesfully Backup On 06-30-2024 Time 20:57:02.
-Sucsesfully Backup On 06-30-2024 Time 21:57:05.
-Sucsesfully Backup On 06-30-2024 Time 22:57:03.
+Sucsesfully Backup On 07-01-2024 Time 13:57:04.
+Sucsesfully Backup On 07-01-2024 Time 14:57:04.
